@@ -25,7 +25,7 @@ type: create database shop_khoanguyen <br>
 (9) php artisan key:generate <br>
 (10) php artisan migrate:refresh --seed <br>
 (11) php artisan storage:link <br>
-(12) truy cập đường dẫn http://<yoursite>.test <br>
+(12) truy cập đường dẫn http://\<yourSite>.test <br>
 
 ## License
 
