@@ -6,7 +6,7 @@
 (5) npm install <br>
 (6) Bật Laragon, truy cập http://localhost/phpmyadmin/ <br>
 Đăng nhập vào tài khoản mysql của bạn
-type: create database shop_khoanguyen ;
+type: create database shop_khoanguyen <br>
 (7) cp .env.example .env ( copy file env ) <br>
 (8) chỉnh sửa file .env để kết nối db <br>
     DB_CONNECTION=mysql          
