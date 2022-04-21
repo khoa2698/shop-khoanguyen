@@ -9,11 +9,11 @@
 type: create database shop_khoanguyen <br>
 (7) cp .env.example .env ( copy file env ) <br>
 (8) chỉnh sửa file .env để kết nối db <br>
-    DB_CONNECTION=mysql          
-	DB_HOST=127.0.0.1            
-	DB_PORT=3306                 
-	DB_DATABASE=shop_khoanguyen     
-	DB_USERNAME=root             
+    DB_CONNECTION=mysql <br>          
+	DB_HOST=127.0.0.1 <br>            
+	DB_PORT=3306 <br>                 
+	DB_DATABASE=shop_khoanguyen <br>     
+	DB_USERNAME=root <br>             
 	DB_PASSWORD=<pass tài khoản root của mysql> <br>
 	QUEUE_CONNECTION=database <br>
 	MAIL_HOST=smtp.gmail.com <br>
