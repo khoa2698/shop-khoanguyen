@@ -26,7 +26,9 @@ type: create database shop_khoanguyen <br>
 (10) php artisan migrate:refresh --seed <br>
 (11) php artisan storage:link <br>
 (12) truy cập giao diện chính: http://shop-khoanguyen.test <br>
-(13) Vào trang quản trị: http://shop-khoanguyen.test/admin/users/login
+(13) Vào trang quản trị: http://shop-khoanguyen.test/admin/users/login <br>
+	Tài khoản: khoa.admin@gmail.com <br>
+	Mật khẩu: 12345678 <br>
 
 ## License
 

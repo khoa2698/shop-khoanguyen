@@ -68,7 +68,7 @@
                             Price
                         </div>
 
-                        <ul>
+                        {{-- <ul>
                             <li class="p-b-6">
                                 <a href="#" class="filter-link stext-106 trans-04 filter-link-active">
                                     All
@@ -104,7 +104,7 @@
                                     $200.00+
                                 </a>
                             </li>
-                        </ul>
+                        </ul> --}}
                     </div>
 
                     <div class="filter-col4 p-b-27">
@@ -112,7 +112,7 @@
                             Tags
                         </div>
 
-                        <div class="flex-w p-t-4 m-r--5">
+                        {{-- <div class="flex-w p-t-4 m-r--5">
                             <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
                                 Fashion
                             </a>
@@ -132,7 +132,7 @@
                             <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
                                 Crafts
                             </a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>

@@ -2,9 +2,11 @@
 namespace App\Helpers;
 
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Request;
 class Helper
 {
-    // Lấy danh sách chuyên mục
+    
+    // Lấy danh sách chuyên mục trang admin
     public static function menu($menus, $parent_id = 0, $char ='')
     {  
         $html = '';
@@ -32,19 +34,22 @@ class Helper
         }
         return $html;
     }
-
+    // set active cho cột active trang admin
     public static function active($active = 0)
     {
         return $active == 0 ? '<span class="btn btn-outline-danger btn-xs">NO</span>' : '<span class="btn btn-outline-info btn-xs">YES</span>';
     }
 
+    // lấy menu cho website
+    
     public static function menus($menus, $parent_id = 0) : string 
     {
         $html = '';
         foreach ($menus as $key => $menu) {
+            $active_navbar = Request::is('danh-muc/'. $menu->id .'-'. Str::slug($menu->name, '-') .'.html') ? 'active-menu' : '';
             if ($menu->parent_id == $parent_id) {
                 $html .= '
-                <li>
+                <li class=" '. $active_navbar .'">
                     <a href="/danh-muc/'. $menu->id .'-'. Str::slug($menu->name, '-') .'.html"> 
                         ' .$menu->name. '
                     </a>';
